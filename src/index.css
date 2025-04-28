@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Rubik ;
+  src: url("../src/assets/fonts/Rubik-VariableFont_wght.ttf");
+}
+
+@import "tailwindcss";
+
+@theme{
+  --font-rubik: Rubik, "sans-serif"
+}
