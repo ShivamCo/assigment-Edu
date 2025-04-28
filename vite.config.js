@@ -9,5 +9,5 @@ export default defineConfig({
     
     
   ],
-  base: "/assigment-Edu/"
+  base: "/"
 })
