@@ -28,17 +28,17 @@ const AccountDetails = () => {
           </h2>
         </div>
 
-        {/* Profile Info */}
+        
         <div className="p-4">
           <div className="flex gap-4 items-start">
-            {/* Profile Image */}
+          
             <div className="relative w-16 h-16">
               <img
                 src="https://randomuser.me/api/portraits/women/44.jpg"
                 alt="Profile"
                 className="rounded-full w-16 h-16 object-cover"
               />
-              {/* Camera Icon */}
+              
               <div className="absolute bottom-0 right-0 bg-violet-600 p-1 rounded-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const AccountDetails = () => {
               </div>
             </div>
 
-            {/* Name and Email */}
+           
             <div>
               <h3 className="text-[14px] font-semibold text-gray-900">
                 {userDetails.fullName}
@@ -65,7 +65,7 @@ const AccountDetails = () => {
             </div>
           </div>
 
-          {/* Bio/Description */}
+        
           <p className="mt-4 text-[13px] text-gray-700 leading-5">
             Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
             Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam
@@ -73,7 +73,7 @@ const AccountDetails = () => {
           </p>
         </div>
 
-        {/* Bottom dashed border */}
+        
         <div className="border-t border-dashed"></div>
       </div>
     </div>
